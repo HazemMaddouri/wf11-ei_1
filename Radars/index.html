@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sfc_radar</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mycss.css">
+</head>
+
+<body>
+  <div id="loginpage" class="loginpage columns is-flex has-text-centered is-hidden">
+    <div class="container box is-align-self-center py-6">
+      <h1 class="is-size-3 mb-2">Login :</h1>
+      <form action="" method="" class="loginform form" id="loginpageform">
+        <label for="username" class="label">Username :</label>
+        <input type="text" name="username" id="username" class="forminput input is-small my-2">
+        <label for="password" class="label">Password :</label>
+        <input type="password" name="password" id="password" class="forminput input is-small my-2">
+        <a href="#" class="signin button">Sign in</a>
+      </form>
+    </div>
+  </div>
+  <div id="landingpageformateur" class="landingpage">
+    <div class="columns is-gapless m-0 ">
+      <div class="sidebarLeft column is-one-third">
+        <div class="usercontainer container is-flex">
+          <img src="./content/images/user-4250.png" alt="" class="imgclass">
+          <ul class="userdata">
+          </ul>
+        </div>
+        <div class="is-flex is-flex-direction-column is-flex-grow px-5">
+          <div class="notif is-size-3 p-0 mb-2">Mes notifications</div>
+          <div class="box p-3">🐦 Bienvenue sur la plateforme</div>
+        </div>
+      </div>
+      <div class="mainPage column is-flex is-hidden">
+        <div class="sessioncontainer container box is-align-self-center has-text-centered is-size-2">
+          Créer une session
+          <div><a id="createsessionbtn" href="#" class="block box button is-dark is-outlined is-flex-grow mt-6">Créer
+              une nouvelle session</a></div>
+        </div>
+      </div>
+      <div class="creationPage column is-flex">
+        <div class="sessioncontainer container is-size-2 p-6">
+          <section class="hero">
+            <div class="hero-body">
+              <div class="container">
+                <form action="" class="form">
+                  <fieldset>
+                    <legend>
+                      Création de session
+                    </legend>
+                    <div class="field">
+                      <div class="control">
+                        <div class="select">
+                          <select class="myselect">
+                            <option>centre de formation</option>
+                            <option>cepegra</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="control">
+                        <label for="intitule" class="">Intitulé de formation</label>
+                        <input type="text" class="myinput" value="">
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="control">
+                        <label for="code">Code de la session</label>
+                        <input type="text" class="myinput" value="">
+                      </div>
+                    </div>
+                    <a href="" class="button">Créer la session</a>
+                  </fieldset>
+                </form>
+                <div>
+                  Candidats
+                  <div class="field has-addons">
+                    <div class="control">
+                      <input id="candidats" class="input" type="text" placeholder="email">
+                    </div>
+                    <div class="control">
+                      <button id="candidatsbtn" class="button">Submit</button>
+                    </div>
+                    <div class="control ml-3">
+                      <ul class="candidatsul"></ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="lib/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+.columns {
+  height: 100vh;
+}
+.sidebarLeft {
+  box-sizing: border-box;
+  background-color: #ECEDE8;
+}
+.mainPage {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+
+.sessioncontainer {
+  border: 1px solid rgba(190, 190, 190, 1);
+}
+.imgclass {
+  width: 128px;
+  height: 128px;
+  margin-right: 1rem;
+}
+.usercontainer{
+  padding: 5rem;
+}
+.notif {
+  margin-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.forminput {
+  box-sizing: border-box;
+  width: 30%;
+}
+.myselect {
+  border-radius: .5rem;
+  padding: 0.3rem;
+  width: 50vw;
+}
+.myinput {
+  width: 15vw;
+  background-color: #F5F5F5;
+  color: #a1a1a1;
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+.textarea{
+  pointer-events: none;
+}
