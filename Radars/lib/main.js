@@ -38,10 +38,10 @@ $createsessionBtn.addEventListener('click', (e) => {
 $candidatsBtn.addEventListener('click', (e) => {
   let cible = $candidatsInput.value
   let matcher = "/^[^\s@]+@[^\s@]+\.[^\s@]+$/"
-  console.log(cible)
+  //console.log(cible)
   let template = ``
   template = `<li>${$candidatsInput.value}</li>`
-  console.log(matcher.test(cible))
+  //console.log(matcher.test(cible))
   if($candidatsInput.match() === true){
     $candidatsUl.insertAdjacentHTML('beforebegin', template)
   }
